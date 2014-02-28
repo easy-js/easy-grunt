@@ -1,0 +1,39 @@
+{
+  "name": "easy-grunt",
+  "description": "Convenience wrapper around grunt.registerTask.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/easy-js/easy-grunt",
+  "author": {
+    "name": "Jarid Margolin",
+    "email": "jarid@firstopinion.co"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/easy-js/easy-grunt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/easy-js/easy-grunt/issues"
+  },
+  "engines": {
+    "node": ">= 0.10.24"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "lib/easy-grunt",
+  "dependencies": {
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt": "~0.4.2",
+    "matchdep": "~0.3.0",
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "sinon": "~1.8.2"
+  },
+  "keywords": [
+    "registerTask",
+    "easy-js"
+  ]
+}
