@@ -42,7 +42,7 @@ describe('easy-grunt.js', function () {
         all: { options: {} }
       }
     }
-  }
+  };
 
   // Pass & Fail for required options
   var pass = { 'foo': '1', 'bar': '2' },
